@@ -1,0 +1,16 @@
+% !TeX root = ./document.tex
+% arara: pdflatex: { shell: yes, interaction: nonstopmode}
+
+\documentclass{report}
+\input{./configuration.tex}
+
+\input{./GRYDocumentTemplate/Templates/Cheatsheet/TemplateFiles/Linked/prefix.tex}
+\begin{center}
+\href{\GRYTUrl}{\huge\GRYTTitle}\\
+\GRYTAuthor
+\end{center}
+\input{./GRYDocumentTemplate/Templates/Cheatsheet/TemplateFiles/Linked/configuration.tex}
+
+\import{content}{content.tex}
+
+\input{./GRYDocumentTemplate/Templates/Cheatsheet/TemplateFiles/Linked/suffix.tex}

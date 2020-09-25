@@ -1,0 +1,4 @@
+[submodule "Document\\GRYDocumentTemplate"]
+	path = Document\\GRYDocumentTemplate
+	url = D:\\Data\\C4\\Dokumente\\Projects\\BRPC\\Common\\GRYDocumentTemplate
+	branch = development
